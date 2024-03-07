@@ -1,0 +1,54 @@
+
+#contenedor{
+    background-color: blueviolet;
+    width: 800PX;
+    height: 20000PX;
+    margin: auto;
+
+}
+#caja1{
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    position: absolute; /* no le iomporta la caja padre*/ 
+    left: 50px;
+
+}
+#caja2{
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    display: inline-block;/*  esta dando una lectura de  izquierda a derecha y no de arriba aa abajo*/
+    
+
+}
+#caja3{
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 250px;
+    display: inline-block;
+
+}
+#caja4{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    
+    left: 100px;
+
+}
+#caja1-1{
+    background-color: darkslategray;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    transform: rotate(45deg);/*esta rotando a la caja*/
+}
